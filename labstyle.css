@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background:linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)) ,url("computr-lab.jpg");
+
+    
+}
+
+.h2 {
+    margin: 50px auto 0 auto;
+    /* top = 50px, horizontal = auto, bottom = 0 */
+    width: fit-content;
+    border-bottom: 2px solid black;
+    text-align: center;
+    color:rgb(237, 150, 237);
+}
+
+.aa {
+    margin: 45px auto 0 auto;
+    /* top = 50px, horizontal = auto, bottom = 0 */
+    width: fit-content;
+
+    text-align: center;
+}
+
+.sylla {
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color:purple;
+    color:aliceblue;
+}
+
+.sylla:hover {
+    transform: scale(1.1);
+    /* Slight zoom */
+    box-shadow: 0 4px 12px rgba(223, 240, 36, 0.2);
+    border-color: antiquewhite;
+    /* Soft bubble shadow */
+}
+
+.cse {
+    margin: 48px auto 0 auto;
+    /* top = 50px, horizontal = auto, bottom = 0 */
+    width: fit-content;
+    border-bottom: 2px solid black;
+    text-align: center;
+    color:aliceblue;
+}
+
+.sem-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* Wrap to next line */
+    gap: 30px;
+    /* Space between images */
+    align-items:center;
+    justify-content: center;
+    /* Center images in row */
+    padding: 20px;
+}
+
+.sem-container img {
+    width: 700px;
+    /* Set size for consistency */
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.sem-container img:hover {
+    transform: scale(1.05);
+    /* Bubbling effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
